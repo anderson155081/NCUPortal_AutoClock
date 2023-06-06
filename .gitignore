@@ -4,6 +4,7 @@ __pycache__/
 *$py.class
 
 pypasser/
+main_withbypass.py
 
 chromedriver
 # C extensions
