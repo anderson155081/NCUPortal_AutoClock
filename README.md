@@ -23,3 +23,29 @@ USERNAME = "Your Student/teacher ID"
 PASSWORD = "Your Password"
 LINE_NOTIFY_TOKEN = "Your Line notify token"
 ```
+4. edit the json file data.json:
+
+```json
+[
+    {
+        "job_code": "",
+        "start_time": "09:00",
+        "end_time": "17:05",
+        "run_date": "2,6",
+        "message": ""
+    }
+    //add on if you have more than one job
+    {
+        "job_code": "",
+        "start_time": "09:00",
+        "end_time": "17:05",
+        "run_date": "2,6",
+        "message": ""
+    }
+]
+```
+5. Run:
+
+```sh
+python main.py
+```
