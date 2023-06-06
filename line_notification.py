@@ -6,6 +6,11 @@ load_dotenv()
 
 def send_line_notification(message, file=None):
     line_notify_token = os.getenv("LINE_NOTIFY_TOKEN")
+
+    #check if token is set
+    if line_notify_token is None:
+        return
+    
     line_notify_api = "https://notify-api.line.me/api/notify"
 
     headers = {"Authorization": f"Bearer {line_notify_token}"}
