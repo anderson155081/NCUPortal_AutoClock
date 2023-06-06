@@ -16,3 +16,10 @@ conda create --name autoclock python=3.9
 conda activate autoclock
 pip install selenium
 ```
+3. create a file .env:
+
+```env
+USERNAME = "Your Student/teacher ID"
+PASSWORD = "Your Password"
+LINE_NOTIFY_TOKEN = "Your Line notify token"
+```
