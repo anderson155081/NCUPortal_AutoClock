@@ -21,7 +21,7 @@ pip install selenium
 ```env
 USERNAME = "Your Student/teacher ID"
 PASSWORD = "Your Password"
-LINE_NOTIFY_TOKEN = "Your Line notify token"
+LINE_NOTIFY_TOKEN = "" 
 ```
 4. edit the json file data.json:
 
