@@ -1,5 +1,6 @@
 # NCUPortal_AutoClock
 An automation tool to help clock in / out on NCUPortal.
+中央大學自動簽到/退
 
 ### 💻 Installation
 
