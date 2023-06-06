@@ -44,3 +44,8 @@ LINE_NOTIFY_TOKEN = "Your Line notify token"
     }
 ]
 ```
+5. Run:
+
+```sh
+python main.py
+```
