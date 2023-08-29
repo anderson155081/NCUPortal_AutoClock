@@ -19,23 +19,19 @@ logging.basicConfig(
 )
 
 load_dotenv()
-
+        
 def checkdate(run_date):
     today = datetime.date.today()
     day_of_month = today.day
+
     if "," not in run_date:
-        if day_of_month == int(run_date):
-            return True
-        else:
-            return False
-    elif "everyday" == run_date:
+        return day_of_month == int(run_date)
+
+    if "everyday" == run_date:
         return True
-    else:
-        run_date = run_date.split(",")
-        if day_of_month >= int(run_date[0]) and day_of_month <= int(run_date[1]):
-            return True
-        else:
-            return False
+
+    start, end = map(int, run_date.split(","))
+    return start <= day_of_month <= end
 
 
 def signInOut(job_code, is_signin, run_date, message):
