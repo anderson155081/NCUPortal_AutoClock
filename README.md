@@ -19,8 +19,11 @@ pip install -r requirements.txt
 ```
 3. create a file .env:
 
+If you want to get LINE notification, get the TOKEN and fill it here
+Generate your token here : [LINE_NOTIFY](https://notify-bot.line.me/zh_TW/)
+
 ```env
-USERNAME = "Your Student/teacher ID"
+USERNAME = "Your Student-ID/Account"
 PASSWORD = "Your Password"
 LINE_NOTIFY_TOKEN = "" 
 ```
