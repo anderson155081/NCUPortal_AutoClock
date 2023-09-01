@@ -72,5 +72,5 @@ python main.py
 &nbsp;
 ---  
 ### 📝 License
-#### This project is licensed under the MIT License. See the [LICENSE.md]() file for details.
+#### This project is licensed under the MIT License. See the [LICENSE.md](https://github.com/anderson155081/NCUPortal_AutoClock/blob/main/LICENSE.md) file for details.
 ---  
