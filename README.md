@@ -38,7 +38,8 @@ LINE_NOTIFY_TOKEN = ""
     }
 ]
 ```
-```explanation
+Explanation:
+```
 run_date:
      "2-15" = Every month from the 2nd to the 15th.每個月2-15號
      "2" = Every month on the 2nd.每個月2號
